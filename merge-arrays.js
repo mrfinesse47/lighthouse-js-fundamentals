@@ -3,7 +3,6 @@
 
 const merge = (arr1, arr2) => {
   const arr3 = arr1.concat(arr2);
-  const resultArray = [];
 
   for (let i = 0; i < arr3.length; i++) {
     if (arr3[i] > arr3[i + 1]) {
